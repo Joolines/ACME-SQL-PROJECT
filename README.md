@@ -90,6 +90,7 @@ The nulls were taken care of by removing the nulls contained in every column.
 
 **NOTE:**  This is a self-decided way of dealing with the nulls
 
+
 **c) Checking for and deletion of nulls**
 
 	DELETE FROM smartphone.dbo.smartphone_cleaned_v2

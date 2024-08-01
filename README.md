@@ -63,14 +63,14 @@ This database schema comprises of a table designed to store and manage smartphon
 
 1.	## **Data cleaning**
    
-**a)A copy of the table was made and named “smartphone_cleaned_v2” to avoid tampering with the original table, it was done using the query below :**
+**a) A copy of the table was made and named “smartphone_cleaned_v2” to avoid tampering with the original table, it was done using the query below :**
 
 	Select *
 	into Smartphone_cleaned_v2
 	from smartphone_cleaned_v2;
 
 
-**b)A check was conducted to get rid of duplicates**
+**b) A check was conducted to get rid of duplicates**
 
 	With SmartPhoneCTE AS (
 	Select *,
